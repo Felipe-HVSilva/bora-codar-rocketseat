@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  gap: 3.2rem;
+
+  padding: 20px;
+  padding-bottom: 40px;
+
+  .player-01 {
+    background-color: $purple;
+    padding: 5rem 3.8rem;
+    height: 49.8rem;
+    border-radius: 0.9rem;
+  }
+
+  .players-left {
+    .player-02 {
+      height: 266px;
+      padding: 4.4rem 2.2rem;
+      background-color: $purple;
+      border-radius: 0.96rem;
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.8rem;
+
+        .info-artist {
+          margin-top: 0;
+        }
+
+        img {
+          max-width: 8.4rem;
+        }
+      }
+
+      .duration {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .player-03 {
+      margin-top: 3.2rem;
+      padding: 2.9rem;
+      background-color: $purple;
+      border-radius: 0.96rem;
+      .top {
+        display: flex;
+        gap: 2.8rem;
+        img {
+          max-width: 8.4rem;
+        }
+      }
+    }
+  }
+}
